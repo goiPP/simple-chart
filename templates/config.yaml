@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configg
+  namespace: simple
+data:
+  name: {{ .Values.name }}
+  age: {{ .Values.age }}
+  color: {{ .Values.color }}
+  level: {{ .Values.level }}
