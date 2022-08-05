@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  simple-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-05T10:56:53.465885+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 4b0305bf0817ad6dee05447c216cd1ee5e7cfd89c927c7f3b27426a00392c061
+    name: simple-chart
+    type: application
+    urls:
+    - simple-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-05T10:56:53.463375+02:00"
