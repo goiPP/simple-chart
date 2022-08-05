@@ -2,3 +2,5 @@ name: default
 age: 0
 color: white
 level: basic
+
+namespace: simple

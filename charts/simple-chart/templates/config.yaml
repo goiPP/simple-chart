@@ -2,9 +2,9 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: configg
-  namespace: simple
+  namespace: {{ .Values.namespace }}
 data:
-  name: {{ .Values.name }}
-  age: {{ .Values.age }}
-  color: {{ .Values.color }}
-  level: {{ .Values.level }}
+  name: {{ .Values.name | quote }}
+  age: {{ .Values.age | quote }}
+  color: {{ .Values.color| quote  }}
+  level: {{ .Values.level | quote }}
